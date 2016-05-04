@@ -1,0 +1,101 @@
+<html>
+<head>
+	<title>tv.az.nz</title>
+	<style type="text/css">
+		@font-face {
+			font-family: 'FFF Tusj';
+			src: url('FFF Tusj.woff') format('woff');
+		}
+		body {
+			font-family: 'Helvetica Neue', sans-serif;
+			font-weight: 100;
+			background: white;
+			color: #353535;
+			margin: 0;
+		}
+		h1 {
+			font-weight: 200;
+			margin: 0;
+		}
+		ul {
+			list-style: none;
+			padding-left: 0;
+			line-height: 2.6em;
+			/*237 #ededed sideshade*/
+		}
+		p {
+			margin: 0;
+		}
+		#header {
+			background: #fafafa;
+			border-bottom: 1px solid #e6e6e6;
+			/*background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='17.32' height='30'><polyline points='8.66,0 8.66,10 0,15 0,25 8.66,30 17.32,25 17.32,15 8.66,10' fill='none' stroke-width='1' stroke='%236f6f6f' stroke-opacity='0.3'/></svg>");*/
+			background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20'><line x1='0' y1='0' x2='100%' y2='0' stroke-width='1' stroke='%236f6f6f' stroke-opacity='0.3'/><line x1='0' y1='0' x2='0' y2='100%' stroke-width='1' stroke='%236f6f6f' stroke-opacity='0.3'/></svg>");
+			height: 60px;
+		}
+		#logo {
+			font-family: 'FFF Tusj', Georgia, serif;
+			font-size: 2.5em;
+			color: black;
+			padding: 4px 0.3em;
+		}
+		#body {
+			height: 100%;
+		}
+		.primary, .secondary {
+			background-color: #ededed;
+		}
+		.primary {
+			width: 640px;
+			height: 360px;
+			margin: 0.5em;
+		}
+		.secondary {
+			width: 320px;
+			height: 180px;
+			float: left;
+			margin: 0.5em;
+		}
+
+		#content {
+			margin-left: 11em;
+		}
+
+		#sidebar {
+			margin-left: 1em;
+			width: 10em;
+			float: left;
+			background: #fafafa;
+			border-right: 1px solid #e6e6e6;
+			font-weight: 400;
+			color: #6f6f6f;
+			height: 100%;
+		}
+	</style>
+</head>
+<body>
+	<div id="body">
+		<div id="header">
+			<div id="logo">tv.az.nz</div>
+		</div>
+
+		<div id="sidebar">
+			<ul>
+				<li>Sidebar stuff 1</li>
+				<li>Sidebar stuff 2</li>
+				<li>Sidebar stuff 3</li>
+			</ul>
+		</div>
+
+		<div id="content">
+			<h1>Foo</h1>
+			<div class="primary"><p>Primary</p></div>
+			<div>
+				<div class="secondary"><p>Secondary 1</p></div>
+				<div class="secondary"><p>Secondary 2</p></div>
+				<div class="secondary"><p>Secondary 3</p></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
